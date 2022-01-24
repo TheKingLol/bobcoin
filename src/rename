@@ -1,0 +1,7 @@
+find ./ -type f -readable -writable -exec sed -i "s/Litecoin/Bobcoin/g" {} \;
+find ./ -type f -readable -writable -exec sed -i "s/LiteCoin/BobCoin/g" {} \;
+find ./ -type f -readable -writable -exec sed -i "s/LTC/BOB/g" {} \;
+find ./ -type f -readable -writable -exec sed -i "s/litecoin/bobcoin/g" {} \;
+find ./ -type f -readable -writable -exec sed -i "s/litecoind/bobcoind/g" {} \;
+find ./ -type f -readable -writable -exec sed -i "s/lites/smallBob/g" {} \;
+find ./ -type f -readable -writable -exec sed -i "s/photons/tinyBob/g" {} \;

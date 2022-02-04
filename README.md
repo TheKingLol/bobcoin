@@ -1,7 +1,6 @@
 Bobcoin Core integration/staging tree
 =====================================
 
-[![Build Status](https://travis-ci.org/bobcoin-project/bobcoin.svg?branch=master)](https://travis-ci.org/bobcoin-project/bobcoin)
 
 https://bobcoin.org
 
@@ -31,10 +30,6 @@ completely stable. [Tags](https://github.com/bobcoin-project/bobcoin/tags) are c
 regularly to indicate new official, stable release versions of Bobcoin Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
-
-The developer [mailing list](https://groups.google.com/forum/#!forum/bobcoin-dev)
-should be used to discuss complicated or controversial changes before working
-on a patch set.
 
 Developer IRC can be found on Freenode at #bobcoin-dev.
 

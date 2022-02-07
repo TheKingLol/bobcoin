@@ -532,7 +532,7 @@ std::string HelpMessage(HelpMessageMode mode)
 std::string LicenseInfo()
 {
     const std::string URL_SOURCE_CODE = "<https://https://github.com/TheKingLol/bobcoin>";
-    const std::string URL_WEBSITE = "<https://bobcoin.github.io>";
+    const std::string URL_WEBSITE = "<https://thekinglol.github.io>";
 
     return CopyrightHolders(strprintf(_("Copyright (C) %i-%i"), 2011, COPYRIGHT_YEAR) + " ") + "\n" +
            "\n" +

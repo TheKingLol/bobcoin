@@ -1,4 +1,4 @@
-// Copyright (c) 2011-2016 The Bitcoin Core developers
+// Copyright (c) 2022 The Bobcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -43,6 +43,7 @@
 #include <QDateTime>
 #include <QDesktopWidget>
 #include <QDragEnterEvent>
+#include <QFontDatabase>
 #include <QListWidget>
 #include <QMenuBar>
 #include <QMessageBox>
@@ -171,6 +172,15 @@ BitcoinGUI::BitcoinGUI(const PlatformStyle *_platformStyle, const NetworkStyle *
         setCentralWidget(rpcConsole);
     }
 
+    // Dogecoin: load fallback font in case Comic Sans is not available on the system
+    QFontDatabase::addApplicationFont(":fonts/ComicNeue-Bold");
+    QFontDatabase::addApplicationFont(":fonts/ComicNeue-Bold-Oblique");
+    QFontDatabase::addApplicationFont(":fonts/ComicNeue-Light");
+    QFontDatabase::addApplicationFont(":fonts/ComicNeue-Light-Oblique");
+    QFontDatabase::addApplicationFont(":fonts/ComicNeue-Regular");
+    QFontDatabase::addApplicationFont(":fonts/ComicNeue-Regular-Oblique");
+    QFont::insertSubstitution("Comic Sans MS", "Comic Neue");
+    
     // Accept D&D of URIs
     setAcceptDrops(true);
 

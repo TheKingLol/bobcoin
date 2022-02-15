@@ -1,6 +1,7 @@
-// Copyright (c) 2012-2016 The Bitcoin Core developers
+// Copyright (c) 2022 The Bobcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
+// TheKingLol/TheKingKerellos: Changing protocol_version to 78421 to segregate from Litecoin nodes and out of date Litecoin forks.
 
 #ifndef BITCOIN_VERSION_H
 #define BITCOIN_VERSION_H
@@ -9,7 +10,7 @@
  * network protocol versioning
  */
 
-static const int PROTOCOL_VERSION = 70015;
+static const int PROTOCOL_VERSION = 78421;
 
 //! initial proto version, to be increased after version/verack negotiation
 static const int INIT_PROTO_VERSION = 209;

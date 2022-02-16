@@ -1,6 +1,20 @@
 #!/bin/bash
-echo "Do sudo -i before you run this script, otherwise be on standby to enter password for sudo"
+echo "Are you root? If not, just stay here to enter your password later."
 ./autogen.sh
+echo "      / \----------------------------------, 
+      \_,|$ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $| 
+         |$ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $|
+         |$ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $|
+         |  ,------------------------------|
+         \_/_______________________________/ "
+echo
+echo "      / \----------------------------------, 
+      \_,|Now that I caught your attention | 
+         |                ~                |
+         | I just want you to start a node |
+         |  ,------------------------------|
+         \_/_______________________________/ "
+echo
 ./configure
 make
 sudo make install

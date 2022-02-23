@@ -33,7 +33,7 @@ Build Bobcoin Core
 
 1. Clone the bobcoin source code and cd into `bobcoin`
 
-        git clone https://github.com/bobcoin-project/bobcoin
+        git clone https://github.com/TheKingLol/bobcoin.git
         cd bobcoin
 
 2.  Build bobcoin-core:

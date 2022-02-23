@@ -1,17 +1,13 @@
-Bobcoin Core version *0.15.1* is now available from:
+Bobcoin Core version *1.0.2* is now available from:
 
-  <https://download.bobcoin.org/bobcoin-0.15.1/>
+  <https://github.com/TheKingLol/bobcoin/releases>
 
 This is a new minor version release, including various bugfixes and
 performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at GitHub:
 
-  <https://github.com/bobcoin-project/bobcoin/issues>
-
-To receive security and update notifications, please subscribe to:
-
-  <https://groups.google.com/forum/#!forum/bobcoin-dev>
+  <https://github.com/TheKingLol/bobcoin/issues>
 
 How to Upgrade
 ==============
